@@ -2,7 +2,7 @@ let count = 0;
 function increment() {
   count++;
   document.getElementById("count").innerText = count;
-  document.getElementById("count").style.color = "green";
+  document.getElementById("count").style.color = "darkgreen";
 }
 
 function decrement() {
