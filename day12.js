@@ -31,13 +31,21 @@
 // }
 // outerFunction()
 
-function outerFunction(){
-    let a = 10;
-    function innerFunction(){
-        a++;
-        console.log(a)
-    }
-    return innerFunction
+// function outerFunction(){
+//     let a = 10;
+//     function innerFunction(){
+//         a++;
+//         console.log(a)
+//     }
+//     return innerFunction
+// }
+// let inner = outerFunction()
+// inner()
+
+
+const add = (a,b) => console.log("javascript")
+const sum = (a,b) => {
+    console.log("javascript")
 }
-let inner = outerFunction()
-inner()
+add()
+sum()
